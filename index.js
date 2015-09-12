@@ -13,11 +13,11 @@ function getGrossAsNumber(grossStr) {
 }
 
 function getLifetimeGrossElement($) {
-  return $('td:first-of-type > font:nth-of-type(2) > a > b').text();
+  return $('font:nth-child(3) > a > b').text();
 }
 
 function getDomesticGrossElement($) {
-  return $('td:first-of-type > font > b:last-child').text();
+  return $('tr:nth-child(1) > td > font:nth-child(1) > b').text();
 }
 
 function getGrossAsText($) {

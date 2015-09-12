@@ -14,7 +14,7 @@ npm install --save box-office-mojo-movie-gross
 
 ```js
 var boxOfficeMojoGross = require('box-office-mojo-movie-gross');
-var pulpFictionHTML = '<table><tbody><tr><td><font>Domestic Total Gross: <b>$107,928,762</b></font></td></tr></tbody></table>';
+var pulpFictionHTML = '<tr><td><font>Domestic Total Gross: <b>$107,928,762</b></font>';
 
 boxOfficeMojoGross(pulpFictionHTML); // 107928762
 ```
