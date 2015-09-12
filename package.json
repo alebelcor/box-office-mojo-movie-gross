@@ -1,0 +1,35 @@
+{
+  "name": "box-office-mojo-movie-gross",
+  "version": "0.1.0",
+  "description": "Get the gross of a Box Office Mojo's movie via its HTML",
+  "keywords": [
+    "box office mojo",
+    "movie",
+    "gross",
+    "domestic"
+  ],
+  "bugs": "https://github.com/alebelcor/box-office-mojo-movie-gross/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/box-office-mojo-movie-gross.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  },
+  "devDependencies": {
+    "ava": "^0.2.0"
+  }
+}
