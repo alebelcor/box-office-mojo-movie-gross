@@ -27,5 +27,9 @@ function getGrossAsText($) {
 }
 
 module.exports = function (html) {
+  if (typeof html !== 'string') {
+    throw new Error('Parameter must be a string of HTML');
+  }
+
   return getGrossAsNumber(getGrossAsText(cheerio.load(html)));
 };

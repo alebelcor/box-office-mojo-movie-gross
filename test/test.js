@@ -42,3 +42,8 @@ test('it should return 0 when there\'s no gross or it can\'t find it', function 
   t.same(0, boxOfficeMojoMovieGross(fixture));
   t.end();
 });
+
+test('it should throw an error when nothing was passed in', function (t) {
+  t.throws(function () { return boxOfficeMojoMovieGross(); });
+  t.end();
+});
