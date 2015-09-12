@@ -28,6 +28,7 @@ Returns the gross of the Box Office Mojo's movie.
 Type: `string`
 
 The full (or partial) HTML of a movie as presented in [Box Office Mojo](http://www.boxofficemojo.com/).
+
 Example: [Pulp Fiction's page in Box Office Mojo](http://www.boxofficemojo.com/movies/?id=pulpfiction.htm)
 
 ## License
