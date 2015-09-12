@@ -1,6 +1,6 @@
 # box-office-mojo-movie-gross
 
-> Get the gross of a Box Office Mojo's movie via its HTML
+> Get the gross of a Box Office Mojo's movie via its HTML.
 
 [![Build Status](https://travis-ci.org/alebelcor/box-office-mojo-movie-gross.svg)](https://travis-ci.org/alebelcor/box-office-mojo-movie-gross)
 
