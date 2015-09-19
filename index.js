@@ -23,7 +23,11 @@ function getDomesticGrossElement($) {
 function getGrossAsText($) {
   var gross = getLifetimeGrossElement($) || getDomesticGrossElement($);
 
-  return gross || '0';
+  if (gross.length === 0) {
+    throw new Error('Movie gross was not found.');
+  }
+
+  return gross;
 }
 
 module.exports = function (html) {
