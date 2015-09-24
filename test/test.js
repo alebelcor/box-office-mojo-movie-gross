@@ -36,10 +36,10 @@ test('it should return a number', function (t) {
   t.end();
 });
 
-test('it should throw an error when there\'s no gross or it can\'t find it', function (t) {
+test('it should return zero when there\'s no gross or it can\'t find it', function (t) {
   var fixture = fs.readFileSync(path.join(FIXTURE_DIR, 'no-domestic.html'), 'utf8');
 
-  t.throws(function () { return boxOfficeMojoMovieGross(fixture); });
+  t.same(0, boxOfficeMojoMovieGross(fixture));
   t.end();
 });
 

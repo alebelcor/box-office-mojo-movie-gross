@@ -24,7 +24,7 @@ function getGrossAsText($) {
   var gross = getLifetimeGrossElement($) || getDomesticGrossElement($);
 
   if (gross.length === 0) {
-    throw new Error('Movie gross was not found.');
+    gross = '0';
   }
 
   return gross;
