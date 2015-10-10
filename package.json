@@ -1,6 +1,6 @@
 {
   "name": "box-office-mojo-movie-gross",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Get the gross of a Box Office Mojo's movie via its HTML",
   "keywords": [
     "box office mojo",
