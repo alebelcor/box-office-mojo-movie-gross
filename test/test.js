@@ -6,7 +6,7 @@ var path = require('path');
 var test = require('ava');
 var boxOfficeMojoMovieGross = require('../');
 
-var FIXTURE_DIR = path.join(process.cwd(), 'test', 'fixture');
+var FIXTURE_DIR = path.resolve('.', 'fixture');
 
 test('it should get the domestic lifetime gross instead of the estimate gross', function (t) {
   var fixture = fs.readFileSync(path.join(FIXTURE_DIR, 'lifetime.html'), 'utf8');

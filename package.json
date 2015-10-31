@@ -24,12 +24,15 @@
     "url": "https://github.com/alebelcor/box-office-mojo-movie-gross.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "cheerio": "^0.19.0"
   },
   "devDependencies": {
-    "ava": "^0.2.0"
+    "ava": "^0.3.0",
+    "coveralls": "^2.11.4",
+    "nyc": "^3.2.2"
   }
 }
